@@ -44,4 +44,7 @@ body {
   width: 90%;
   max-width: 1000px;
   margin: 1.6em auto;
+
+  display: grid;
+  gap: 1.6em;
 }
