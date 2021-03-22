@@ -93,3 +93,13 @@ body {
   /* As the ordering gets horizontal, flex-direction is used in column value */
   flex-direction: column;
 }
+
+.container .related-post {
+  background: #2d3436;
+  color: #ffffff;
+  height: 180px; /* Giving heigh to the related-post */
+  /* As the text is not centered vertically, flex is needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
