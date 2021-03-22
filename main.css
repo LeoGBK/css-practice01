@@ -49,3 +49,13 @@ body {
   gap: 1.6em;
   grid-template-columns: repeat(5, 1fr);
 }
+
+.container > .header,
+.container > .content,
+.container > .sidebar,
+.container > .footer,
+.container > div {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #000;
+}
