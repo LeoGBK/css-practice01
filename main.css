@@ -85,4 +85,11 @@ body {
 
 .container .sidebar {
   grid-column: span 2;
+  background: #485460;
+  color: #ffffff;
+  display: flex; /* For ordering and centering the sidebar content */
+  justify-content: center; /* Trying centering in the column */
+  align-items: center; /* Trying centering in the row */
+  /* As the ordering gets horizontal, flex-direction is used in column value */
+  flex-direction: column;
 }
