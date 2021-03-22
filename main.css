@@ -102,4 +102,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* I apply transition */
+  transition: all 0.5s ease;
+}
+
+.container .related-post:hover {
+  cursor: pointer;
+  color: #000000;
+  background: #ffffff;
+  /* But the hover action runs too quick, I apply transition on the NO HOVER style */
 }
