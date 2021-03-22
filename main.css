@@ -31,3 +31,17 @@ body {
   background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
   font-family: "Manjari", sans-serif;
 }
+
+/* HEADER */
+.title h1 {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 2.9em;
+  text-transform: uppercase;
+}
+.container {
+  background: #fff;
+  width: 90%;
+  max-width: 1000px;
+  margin: 1.6em auto;
+}
