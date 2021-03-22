@@ -47,4 +47,5 @@ body {
 
   display: grid;
   gap: 1.6em;
+  grid-template-columns: repeat(5, 1fr);
 }
