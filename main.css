@@ -94,6 +94,11 @@ body {
   flex-direction: column;
 }
 
+.container .sidebar img {
+  width: 100%;
+  margin-top: 5px;
+}
+
 .container .related-post {
   background: #2d3436;
   color: #ffffff;
@@ -111,4 +116,25 @@ body {
   color: #000000;
   background: #ffffff;
   /* But the hover action runs too quick, I apply transition on the NO HOVER style */
+}
+
+/* Making the styles responsive */
+@media screen and (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+
+  .container .content {
+    grid-column: 1/-1; /* I make the content column to take the whole space width - "-1" represents the end of the vertical lines */
+  }
+
+  .container .sidebar {
+    grid-column: 1/-1; /* I make the siderbar column to take the whole space width - "-1" represents the end of the vertical lines */
+    /* Therefore, it goes down to occupy the whole with space */
+  }
+
+  .container .related-post {
+    grid-column: 1/-1; /* I make the related-post columns to take the whole space width - "-1" represents the end of the vertical lines */
+    /* Therefore, it also goes down each to occupy the whole with space */
+  }
 }
