@@ -71,6 +71,13 @@ body {
   grid-column: span 3;
 }
 
+.content .article {
+  background: #808e9b;
+  padding: 20px;
+  margin-top: 5px;
+  color: #dfe6e9;
+}
+
 .container .sidebar {
   grid-column: span 2;
 }
