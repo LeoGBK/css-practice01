@@ -78,6 +78,11 @@ body {
   color: #dfe6e9;
 }
 
+.content .article h1,
+.content .article p {
+  padding: 10px;
+}
+
 .container .sidebar {
   grid-column: span 2;
 }
